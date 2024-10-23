@@ -28,7 +28,7 @@ class DatabaseMethods{
   updateStatus(String id) async {
     return await FirebaseFirestore.instance
         .collection("Orders").doc(id)
-        .update({"Status":"Delivered"});
+        .update({"Status":"Confirmed. Thank you!"});
   }
 
 
@@ -43,7 +43,7 @@ class DatabaseMethods{
 
 
   Future<Stream<QuerySnapshot>>allOrders()async{
-    return await FirebaseFirestore.instance.collection("Orders").where("Status",isEqualTo:"On the way").snapshots();
+    return await FirebaseFirestore.instance.collection("Orders").where("Status",isEqualTo:"Wait for confirmation").snapshots();
     
   }
 

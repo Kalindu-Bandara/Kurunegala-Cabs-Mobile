@@ -242,7 +242,7 @@ class _VehicleDetailState extends State<VehicleDetail> {
           "Email": mail,
           "Image": image,
           "VehicleImage": widget.image,
-          "Status": "On the way",
+          "Status": "Wait for confirmation",
           "Selected Days": selectedDaysList, 
         };
 
