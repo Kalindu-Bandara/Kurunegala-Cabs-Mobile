@@ -131,7 +131,7 @@ class _OrderState extends State<Order> {
         backgroundColor: Color(0xfff2f2f2),
         title: Center(
           child: Text(
-            "Current Orders",
+            "Current Bookings",
             style: AppWidget.boldTextFeildStyle(),
           ),
         ),
