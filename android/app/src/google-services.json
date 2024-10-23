@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "659841460409",
+    "project_id": "cabmanagement-3adc7",
+    "storage_bucket": "cabmanagement-3adc7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659841460409:android:08874eb0fc80043050d368",
+        "android_client_info": {
+          "package_name": "com.example.cab_management"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApzu7mQGiR4WV31ihZTJ_HjVXCnyckqtA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659841460409:android:077436c2a236664450d368",
+        "android_client_info": {
+          "package_name": "com.example.sofrwere_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApzu7mQGiR4WV31ihZTJ_HjVXCnyckqtA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
